@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Waher.Runtime.Threading</name>
+    </assembly>
+    <members>
+        <member name="T:Waher.Runtime.Threading.IMultiReadSingleWriteObject">
+            <summary>
+            An interface for objects that allow single concurrent writers but multiple concurrent readers.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.BeginRead">
+            <summary>
+            Waits until object ready for reading.
+            Each call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.BeginRead"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.EndRead"/>.
+            </summary>
+            <returns>Number of concurrent readers when returning from locked section of call.</returns>
+        </member>
+        <member name="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.EndRead">
+            <summary>
+            Ends a reading session of the object.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.BeginRead"/> or successful call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.TryBeginRead(System.Int32)"/>.
+            </summary>
+            <returns>Number of concurrent readers when returning from locked section of call.</returns>
+        </member>
+        <member name="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.TryBeginRead(System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until object ready for reading.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.TryBeginRead(System.Int32)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.EndRead"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.BeginWrite">
+            <summary>
+            Waits until object ready for writing.
+            Each call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.BeginWrite"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.EndWrite"/>.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.EndWrite">
+            <summary>
+            Ends a writing session of the object.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.BeginWrite"/> or successful call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.TryBeginWrite(System.Int32)"/>.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.TryBeginWrite(System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until object ready for writing.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.TryBeginWrite(System.Int32)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.IMultiReadSingleWriteObject.EndWrite"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+        </member>
+        <member name="P:Waher.Runtime.Threading.IMultiReadSingleWriteObject.NrReaders">
+            <summary>
+            Number of concurrent readers.
+            </summary>
+        </member>
+        <member name="P:Waher.Runtime.Threading.IMultiReadSingleWriteObject.IsWriting">
+            <summary>
+            If the object has a writer.
+            </summary>
+        </member>
+        <member name="T:Waher.Runtime.Threading.MultiReadSingleWriteObject">
+            <summary>
+            Represents an object that allows single concurrent writers but multiple concurrent readers.
+            When disposing the object, it automatically ends any reading and writing locks it maintains.
+            </summary>
+        </member>
+        <member name="P:Waher.Runtime.Threading.MultiReadSingleWriteObject.NrReaders">
+            <summary>
+            Number of concurrent readers.
+            </summary>
+        </member>
+        <member name="P:Waher.Runtime.Threading.MultiReadSingleWriteObject.IsReading">
+            <summary>
+            If the object is in a reading state.
+            </summary>
+        </member>
+        <member name="P:Waher.Runtime.Threading.MultiReadSingleWriteObject.IsWriting">
+            <summary>
+            If the object has a writer.
+            </summary>
+        </member>
+        <member name="P:Waher.Runtime.Threading.MultiReadSingleWriteObject.IsReadingOrWriting">
+            <summary>
+            If the object is locked for reading or writing.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.AssertReading">
+            <summary>
+            Throws an <see cref="T:System.InvalidOperationException"/> if the object
+            is not in a reading state.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.AssertWriting">
+            <summary>
+            Throws an <see cref="T:System.InvalidOperationException"/> if the object
+            is not in a writing state.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.AssertReadingOrWriting">
+            <summary>
+            Throws an <see cref="T:System.InvalidOperationException"/> if the object
+            is not in a reading or writing state.
+            </summary>
+        </member>
+        <member name="P:Waher.Runtime.Threading.MultiReadSingleWriteObject.Token">
+            <summary>
+            Returns a token corresponding to the current lock. It is incremented at the start of a lock-cycle
+            (when in a state of no locks, to entering the first lock), and when a lock-cyckle ends (when going
+            from a locked state, to an unlocked state). The token can be used to check, in nested code, if the 
+            object is in an expected lock, or if a new lock is required.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.BeginRead">
+            <summary>
+            Waits until object ready for reading.
+            Each call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.BeginRead"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.EndRead"/>.
+            </summary>
+            <returns>Number of concurrent readers when returning from locked section of call.</returns>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.EndRead">
+            <summary>
+            Ends a reading session of the object.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.BeginRead"/> or successful call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.TryBeginRead(System.Int32)"/>.
+            </summary>
+            <returns>Number of concurrent readers when returning from locked section of call.</returns>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.TryBeginRead(System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until object ready for reading.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.TryBeginRead(System.Int32)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.EndRead"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.BeginWrite">
+            <summary>
+            Waits until object ready for writing.
+            Each call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.BeginWrite"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.EndWrite"/>.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.EndWrite">
+            <summary>
+            Ends a writing session of the object.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.BeginWrite"/> or successful call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.TryBeginWrite(System.Int32)"/>.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.TryBeginWrite(System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until object ready for writing.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.TryBeginWrite(System.Int32)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.EndWrite"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.Unlock">
+            <summary>
+            Unlocks all locks on the object.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.MultiReadSingleWriteObject.Dispose">
+            <summary>
+            <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
+        </member>
+        <member name="T:Waher.Runtime.Threading.Semaphore">
+            <summary>
+            Represents a named semaphore, i.e. an object, identified by a name,
+            that allows single concurrent writers but multiple concurrent readers.
+            You can create multiple instances of the <see cref="T:Waher.Runtime.Threading.Semaphore"/> class
+            with the same name, and they all refer to the same named semaphore.
+            When the object is disposed, it ends any reading or writing locks the
+            object has started (not all locks pending for the named semaphore).
+            
+            Note: Semaphores are unique in the space of the current application domain
+            only.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.#ctor(System.String)">
+            <summary>
+            Represents a named semaphore, i.e. an object, identified by a name,
+            that allows single concurrent writers but multiple concurrent readers.
+            You can create multiple instances of the <see cref="T:Waher.Runtime.Threading.Semaphore"/> class
+            with the same name, and they all refer to the same named semaphore.
+            
+            Note: Semaphores are unique in the space of the current application domain
+            only.
+            </summary>
+            <param name="Name">Semaphore name.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.#ctor(System.String,System.Int32)">
+            <summary>
+            Represents a named semaphore, i.e. an object, identified by a name,
+            that allows single concurrent writers but multiple concurrent readers.
+            You can create multiple instances of the <see cref="T:Waher.Runtime.Threading.Semaphore"/> class
+            with the same name, and they all refer to the same named semaphore.
+            
+            Note: Semaphores are unique in the space of the current application domain
+            only.
+            </summary>
+            <param name="Name">Semaphore name.</param>
+            <param name="NrReaders">Number of initial readers.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.#ctor(System.String,System.Boolean)">
+            <summary>
+            Represents a named semaphore, i.e. an object, identified by a name,
+            that allows single concurrent writers but multiple concurrent readers.
+            You can create multiple instances of the <see cref="T:Waher.Runtime.Threading.Semaphore"/> class
+            with the same name, and they all refer to the same named semaphore.
+            
+            Note: Semaphores are unique in the space of the current application domain
+            only.
+            </summary>
+            <param name="Name">Semaphore name.</param>
+            <param name="IsWriting">If the semaphore is initially writing.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.BeginRead">
+            <summary>
+            Waits until object ready for reading.
+            Each call to <see cref="M:Waher.Runtime.Threading.Semaphore.BeginRead"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphore.EndRead"/>.
+            </summary>
+            <returns>Number of concurrent readers when returning from locked section of call.</returns>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.EndRead">
+            <summary>
+            Ends a reading session of the object.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.Semaphore.BeginRead"/> or successful call to <see cref="M:Waher.Runtime.Threading.Semaphore.TryBeginRead(System.Int32)"/>.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.TryBeginRead(System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until object ready for reading.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.Semaphore.TryBeginRead(System.Int32)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphore.EndRead"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.BeginWrite">
+            <summary>
+            Waits until object ready for writing.
+            Each call to <see cref="M:Waher.Runtime.Threading.Semaphore.BeginWrite"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphore.EndWrite"/>.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.EndWrite">
+            <summary>
+            Ends a writing session of the object.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.Semaphore.BeginWrite"/> or successful call to <see cref="M:Waher.Runtime.Threading.Semaphore.TryBeginWrite(System.Int32)"/>.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.TryBeginWrite(System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until object ready for writing.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.Semaphore.TryBeginWrite(System.Int32)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphore.EndWrite"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+        </member>
+        <member name="P:Waher.Runtime.Threading.Semaphore.NrReaders">
+            <summary>
+            Number of concurrent readers.
+            </summary>
+        </member>
+        <member name="P:Waher.Runtime.Threading.Semaphore.IsWriting">
+            <summary>
+            If the object has a writer.
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphore.Dispose">
+            <summary>
+            Disposes of the named semaphore, and releases any locks the object
+            manages.
+            </summary>
+        </member>
+        <member name="T:Waher.Runtime.Threading.Semaphores">
+            <summary>
+            Static class of application-wide semaphores that can be used to order access
+            to editable objects.
+            
+            Semaphores are created dynamically, and identified by a string Key, that must
+            be unique for each semaphore. A semaphore that has not been used for an hour
+            is automatically disposed (but can be recreated later).
+            </summary>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphores.BeginRead(System.String)">
+            <summary>
+            Waits until the semaphore identified by <paramref name="Key"/> is ready for reading.
+            Each call to <see cref="M:Waher.Runtime.Threading.Semaphores.BeginRead(System.String)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphores.EndRead(System.String)"/>
+            with the same <paramref name="Key"/>.
+            </summary>
+            <param name="Key">Semaphore key.</param>
+            <returns>Semaphore object that can be used for managing the semaphore.</returns>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphores.EndRead(System.String)">
+            <summary>
+            Ends a reading session of the semaphore identified by <paramref name="Key"/>.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.Semaphores.BeginRead(System.String)"/> or successful call to <see cref="M:Waher.Runtime.Threading.Semaphores.TryBeginRead(System.String,System.Int32)"/>
+            with the same <paramref name="Key"/>.
+            </summary>
+            <param name="Key">Semaphore key.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphores.TryBeginRead(System.String,System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until 
+            the semaphore identified by <paramref name="Key"/> is ready for reading.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.Semaphores.TryBeginRead(System.String,System.Int32)"/> must be followed by 
+            exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphores.EndRead(System.String)"/> with the same <paramref name="Key"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+            <param name="Key">Semaphore key.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphores.BeginWrite(System.String)">
+            <summary>
+            Waits until the semaphore identified by <paramref name="Key"/> is ready for writing.
+            Each call to <see cref="M:Waher.Runtime.Threading.Semaphores.BeginWrite(System.String)"/> must be followed by exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphores.EndWrite(System.String)"/>
+            with the same <paramref name="Key"/>.
+            </summary>
+            <param name="Key">Semaphore key.</param>
+            <returns>Semaphore object that can be used for managing the semaphore.</returns>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphores.EndWrite(System.String)">
+            <summary>
+            Ends a writing session of the semaphore identified by <paramref name="Key"/>.
+            Must be called once for each call to <see cref="M:Waher.Runtime.Threading.Semaphores.BeginWrite(System.String)"/> or successful call to <see cref="M:Waher.Runtime.Threading.Semaphores.TryBeginWrite(System.String,System.Int32)"/>
+            with the same <paramref name="Key"/>.
+            </summary>
+            <param name="Key">Semaphore key.</param>
+        </member>
+        <member name="M:Waher.Runtime.Threading.Semaphores.TryBeginWrite(System.String,System.Int32)">
+            <summary>
+            Waits, at most <paramref name="Timeout"/> milliseconds, until 
+            the semaphore identified by <paramref name="Key"/> is ready for writing.
+            Each successful call to <see cref="M:Waher.Runtime.Threading.Semaphores.TryBeginWrite(System.String,System.Int32)"/> must be followed by 
+            exactly one call to <see cref="M:Waher.Runtime.Threading.Semaphores.EndWrite(System.String)"/> with the same <paramref name="Key"/>.
+            </summary>
+            <param name="Timeout">Timeout, in milliseconds.</param>
+            <param name="Key">Semaphore key.</param>
+        </member>
+    </members>
+</doc>

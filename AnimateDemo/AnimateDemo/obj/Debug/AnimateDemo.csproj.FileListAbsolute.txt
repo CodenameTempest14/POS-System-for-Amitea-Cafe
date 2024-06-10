@@ -1,0 +1,27 @@
+c:\users\dopfns\documents\visual studio 2015\Projects\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.exe
+c:\users\dopfns\documents\visual studio 2015\Projects\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.pdb
+c:\users\dopfns\documents\visual studio 2015\Projects\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.Form1.resources
+c:\users\dopfns\documents\visual studio 2015\Projects\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.Properties.Resources.resources
+c:\users\dopfns\documents\visual studio 2015\Projects\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.csproj.GenerateResource.Cache
+c:\users\dopfns\documents\visual studio 2015\Projects\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.exe
+c:\users\dopfns\documents\visual studio 2015\Projects\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.exe.config
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.exe
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.csproj.AssemblyReference.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.Form1.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.Properties.Resources.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.csproj.GenerateResource.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.csproj.CoreCompileInputs.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.exe
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.exe.config
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.exe
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\bin\Debug\AnimateDemo.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.csproj.AssemblyReference.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.Form1.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.Properties.Resources.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.csproj.GenerateResource.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.csproj.CoreCompileInputs.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.exe
+D:\Documents\BSCpE-3\Software Design\Source Code\AnimateDemo\AnimateDemo\obj\Debug\AnimateDemo.pdb

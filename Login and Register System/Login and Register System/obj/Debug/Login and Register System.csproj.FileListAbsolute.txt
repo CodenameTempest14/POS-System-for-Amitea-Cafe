@@ -1,0 +1,241 @@
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe.config
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.AssemblyReference.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Properties.Resources.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.GenerateResource.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.CoreCompileInputs.cache
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.exe
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.loginForm.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.RegisterForm.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\FontAwesome.Sharp.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.CopyComplete
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.RoundedTextBox.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Dashboard.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Buffers.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Memory.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Json.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.ValueTuple.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Buffers.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Memory.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Json.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.ValueTuple.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Data.SQLite.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Data.SQLite.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Menu.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Hash.xxHash.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MySql.Data.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.IO.Pipelines.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\ZstdSharp.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.pdb
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Hash.xxHash.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MySql.Data.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.IO.Pipelines.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.ItemHolder.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe.config
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.pdb
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\FontAwesome.Sharp.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Hash.xxHash.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MySql.Data.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Buffers.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Data.SQLite.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.IO.Pipelines.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Memory.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Numerics.Vectors.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Encodings.Web.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Json.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.ValueTuple.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\ZstdSharp.dll
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.pdb
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.pdb
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Hash.xxHash.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MySql.Data.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.pdb
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Buffers.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Data.SQLite.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.IO.Pipelines.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Memory.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Numerics.Vectors.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Encodings.Web.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Json.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.ValueTuple.xml
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.AssemblyReference.cache
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Dashboard.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.LoginForm.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.ItemHolder.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Menu.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Properties.Resources.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.RegisterForm.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.RoundedTextBox.resources
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.GenerateResource.cache
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.CoreCompileInputs.cache
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.CopyComplete
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.exe
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.pdb
+C:\Software Design\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.BillingFormat.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.BillingFormat.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Inventory.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.User.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\AltoControls.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Content.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Events.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Persistence.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Cache.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Inventory.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Profiling.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Settings.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Temporary.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Threading.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Script.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Threading.xml
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MaterialSkin.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\XamlC.stamp
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Drawing.Common.dll
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.ProductModoule.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.UserProfile.resources
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe.manifest
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.application
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.exe.manifest
+D:\Documents\BSCpE-3\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.application
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe.config
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe.manifest
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.application
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.exe
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Login and Register System.pdb
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\AltoControls.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\FontAwesome.Sharp.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Hash.xxHash.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MaterialSkin.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MySql.Data.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Buffers.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Data.SQLite.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Drawing.Common.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.IO.Pipelines.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Memory.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Numerics.Vectors.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Encodings.Web.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Json.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.ValueTuple.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Content.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Events.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Persistence.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Cache.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Inventory.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Profiling.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Settings.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Temporary.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Threading.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Script.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\ZstdSharp.dll
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.pdb
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Google.Protobuf.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.pdb
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Gremlin.Net.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\K4os.Hash.xxHash.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\MySql.Data.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.pdb
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Polly.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Buffers.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Data.SQLite.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.IO.Pipelines.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Memory.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Numerics.Vectors.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Encodings.Web.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Text.Json.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\System.ValueTuple.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\bin\Debug\Waher.Runtime.Threading.xml
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.AssemblyReference.cache
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.BillingFormat.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Dashboard.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.LoginForm.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Inventory.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.ItemHolder.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Menu.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.ProductModoule.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.Properties.Resources.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.RegisterForm.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.RoundedTextBox.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.User.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login_and_Register_System.UserProfile.resources
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.GenerateResource.cache
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.CoreCompileInputs.cache
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\XamlC.stamp
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.exe.manifest
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.application
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.csproj.CopyComplete
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.exe
+D:\Documents\BSCpE-3\1st Sem\Software Design\Source Code\Login and Register System\Login and Register System\obj\Debug\Login and Register System.pdb
